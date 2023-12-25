@@ -1,6 +1,17 @@
 #vetrinavbar {
-  background-color: rgb(65, 75, 75);
+  background-color: dark;
+  justify-content: end;
 }
-#vetrinavbar ul {
-  text-align: center;
+#smedia {
+  font-size: 30px;
+}
+li {
+  margin-right: 40px;
+  font-size: 20px;
+}
+#navcon {
+  padding: 5px;
+}
+header {
+  font-family: "Caveat", sans-serif;
 }
