@@ -1,17 +1,44 @@
-#vetrinavbar {
+/* #vetrinavbar {
   background-color: dark;
   justify-content: end;
-}
+} */
 #smedia {
   font-size: 30px;
 }
 li {
-  margin-right: 40px;
+  margin-right: 20px;
   font-size: 20px;
 }
-#navcon {
-  padding: 5px;
+li:hover {
+  color: aqua;
 }
+/* navbarnd title */
+#navcon {
+  padding: 2px;
+}
+/* header font change (canveat) */
 header {
   font-family: "Caveat", sans-serif;
+}
+
+/* Hover effect styles */
+.navbar-nav .nav-link:hover {
+  color: aqua; /* Text color on hover (blue) */
+  font-size: 22px;
+  transition: 0.5s; /*Font size increse hover */
+}
+.navbar-brand:hover {
+  color: aqua; /* Text color on hover (blue) */
+
+  transition: 0.2s; /*Font size increse hover */
+}
+body {
+  background-color: aliceblue;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+  outline: none;
 }
