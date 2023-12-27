@@ -1,0 +1,32 @@
+body {
+  background-color: #00008b;
+}
+/* header font size increse */
+.AravindSathya {
+  font-size: larger;
+}
+.nav-link {
+  color: gray;
+  margin-left: 12px;
+}
+.nav-link:hover {
+  color: aqua;
+  font-size: 18px;
+  transition: 0.25s;
+}
+.navbar-brand {
+  font-size: 25px;
+  color: white;
+}
+.navbar-brand:hover {
+  color: #e3f2fd;
+}
+#header {
+  font-family: "Caveat", sans-serif;
+}
+.offcanvas-body {
+  background-color: dark;
+}
+
+.navbar-toggler {
+}
